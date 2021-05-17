@@ -30,13 +30,10 @@ public class BookCommand {
 
     private static final SimpleCommandExceptionType NO_BOOK = new SimpleCommandExceptionType(new TranslatableText("commands.cbook.commandException"));
 
-    private static final int MAX_LIMIT = 100;
+    private static final int MAX_LIMIT = 1000000;
     private static final int DEFAULT_LIMIT = 50;
 
     public static void register(CommandDispatcher<ServerCommandSource> dispatcher) {
-        if (MultiConnectAPI.instance().getProtocolVersion() >= Protocols.V1_15) {
-            return; // chunk savestate fixed in 1.15
-        }
 
         addClientSideCommand("cbook");
 

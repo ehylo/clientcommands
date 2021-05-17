@@ -1,6 +1,12 @@
 # clientcommands
 Adds several useful client-side commands to Minecraft
 
+This fork removes restrictions, for example cbook can be used on any version and the book page limit is 1000000. 
+
+When Earth adds the server check for quilt or whatever it ends up being, I will remove it because imo its so stupid. 
+
+I will try to release within a day of when Earth does but if not just create an issue, also if you want something else unrestricted lmk and Ill see what I can do. 
+
 ## Discord
 https://discord.gg/Jg7Bun7
 
